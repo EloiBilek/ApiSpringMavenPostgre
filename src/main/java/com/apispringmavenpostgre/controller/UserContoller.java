@@ -24,7 +24,7 @@ import com.apispringmavenpostgre.model.service.IUserService;
  *
  */
 @RestController
-@RequestMapping("/v1/user")
+@RequestMapping("/v1/users")
 public class UserContoller {
 
 	@Autowired
