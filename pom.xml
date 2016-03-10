@@ -1,14 +1,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	
+
 	<groupId>com.apispringmavenpostgre</groupId>
 	<artifactId>ApiSpringMavenPostgre</artifactId>
 	<version>v1</version>
 	<packaging>war</packaging>
 	<name>ApiSpringMavenPostgre</name>
 	<description>API example using Spring, Maven and Postgresql conection.</description>
-	
+
 	<!-- JBoss repository for Hibernate -->
 	<repositories>
 		<repository>
@@ -154,7 +154,17 @@
 					<target>${jdk.version}</target>
 				</configuration>
 			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>2.6</version>
+				<configuration>
+					<!-- Java EE 7(+) doesn't require web.xml, Maven needs to catch up! -->
+					<failOnMissingWebXml>false</failOnMissingWebXml>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
-	
+
 </project>
