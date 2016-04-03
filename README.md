@@ -43,7 +43,7 @@ To test requests (post, get, put and delete), I use the following plugin for chr
 
 Request example.
 
-![request test](https://github.com/EloiBilek/eloibilek.github.io/raw/master/SMP/resquest_test.png)
+![request test](https://github.com/EloiBilek/eloibilek.github.io/raw/master/SMP/request_test.png)
 
 Response example.
 
