@@ -2,7 +2,7 @@
 Title: ApiSpringMavenPostgre
 Description: API example using Spring, Maven and PostgreSQL.
 Author: Eloi Bilek
-Tags: maven, restfull, api, java
+Tags: maven, restful, api, java, spring
 Created: 2016 Mar 03
 
 ---
