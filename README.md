@@ -10,7 +10,7 @@ Created: 2016 Mar 03
 # ApiSpringMavenPostgre
 =======================
 
-It 's a very simple example of an RestFull API, CRUD of User.
+It 's a very simple example of an RestFul API, CRUD of User.
 Using:
 * Java 8
 * Maven 3
