@@ -1,4 +1,4 @@
-package com.apispringmavenpostgre.model.persistence;
+package com.apispringmavenpostgre.model.common;
 
 import java.io.Serializable;
 import java.util.List;

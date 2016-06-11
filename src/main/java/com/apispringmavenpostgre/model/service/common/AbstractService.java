@@ -8,7 +8,7 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.apispringmavenpostgre.model.persistence.IOperations;
+import com.apispringmavenpostgre.model.common.IOperations;
 import com.google.common.collect.Lists;
 
 

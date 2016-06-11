@@ -1,4 +1,4 @@
-package com.apispringmavenpostgre.model.persistence.dao;
+package com.apispringmavenpostgre.model.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

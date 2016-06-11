@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.apispringmavenpostgre.controller;
+package com.apispringmavenpostgre.resource;
 
 import java.util.List;
 
@@ -25,7 +25,7 @@ import com.apispringmavenpostgre.model.service.IUserService;
  */
 @RestController
 @RequestMapping("/v1/users")
-public class UserController {
+public class UserResource {
 
 	@Autowired
 	private IUserService userService;
@@ -33,7 +33,7 @@ public class UserController {
 	// @Autowired
 	// private ApplicationEventPublisher eventPublisher;
 
-	public UserController() {
+	public UserResource() {
 		super();
 	}
 
